@@ -1,0 +1,8 @@
+# ChunkTP Configuration
+# Customizable plugin messages using MiniMessage format
+# See https://docs.advntr.dev/minimessage/format.html for formatting help
+messages:
+  teleport-success: "<gold>Teleported to chunk</gold> <aqua>{chunkX}</aqua><gold>,</gold> <aqua>{chunkZ}</aqua> <gold>at world coordinates</gold> <yellow>{worldX}</yellow><gold>,</gold> <yellow>{worldZ}</yellow>"
+  teleport-failed: "<red>Failed to teleport to chunk</red> <red>{chunkX}</red><gold>,</gold> <red>{chunkZ}</red> <gold>at world coordinates</gold> <yellow>{worldX}</yellow><gold>,</gold> <yellow>{worldZ}</yellow>"
+  coordinates-out-of-bounds: "<red>Coordinates out of bounds!</red> <gold>Chunk coordinates must be between</gold> <red>{min}</red> <gold>and</gold> <red>{max}</red><gold>. This limit prevents server crashes.</gold>"
+  players-only: "<red>This command can only be used by players.</red>"
