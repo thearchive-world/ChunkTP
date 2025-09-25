@@ -1,9 +1,9 @@
 name: ChunkTP
-version: '1.0.0'
+version: '${pluginVersion}'
 main: world.thearchive.chunktp.ChunkTP
 description: Minecraft Paper server plugin that allows players to teleport to specific chunk coordinates
 author: thearchive.world
-api-version: '1.21'
+api-version: '${apiVersion}'
 folia-supported: false
 
 # Paper plugin features
